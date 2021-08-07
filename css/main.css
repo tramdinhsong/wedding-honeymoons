@@ -1,0 +1,501 @@
+@charset "UTF-8";
+/* CSS Document */
+body
+{
+	padding: 0;
+	margin: 0;
+}
+.container
+{
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+	scroll-behavior: smooth;
+	background-color: whitesmoke;
+	
+}
+.banner
+{
+	width: 100%;
+	height: 120px;
+	position: fixed;
+}
+
+.logo
+{
+	width: 100%;
+	height: 70px;
+	background-color: whitesmoke;
+	float: left;
+	box-sizing: border-box;
+}
+.hinhlogo
+{
+	width: 90%;
+	height: 100%;
+	background-color: whitesmoke;
+	float: left;
+	box-sizing: border-box;
+	padding: 2% 0% 0% 43%;
+}
+.slide
+{
+	width: 10%;
+	height: 100%;
+	background-color:whitesmoke;
+	float: right;
+	box-sizing: border-box;
+}
+.menu
+{
+	width: 100%;
+	height: 60px;
+	background-color:whitesmoke;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 31%;
+}
+.menu ul
+{
+	list-style: none;
+}
+.menu ul li
+{
+	float: left;
+	box-sizing: border-box;
+	margin: 1% 0% 1% 5%;
+	cursor: pointer;
+	
+}
+.menu ul li a
+{
+	text-decoration: none;
+}
+.menu ul li:hover
+{
+	border-bottom: 3px solid #DE5F27;
+}
+
+.menu button
+{
+	width: 145px;
+	height: 40px;
+	padding-top:6px;
+	background-color:#DE5F27;
+	border: none;
+	border-radius: 100px;
+	
+}
+
+@font-face 
+{
+	font-family: Josefin;
+	src:url("../font/JosefinSans-Medium.ttf")
+}
+@font-face 
+{
+	font-family: Josefinlight;
+	src:url("../font/JosefinSans-Light.ttf")
+}
+@font-face 
+{
+	font-family: asheron;
+	src:url("../font/TUV Asheron II.ttf")
+}
+.home
+{
+	width: 100%;
+	height: 700px;
+	float: left;
+	background-color:whitesmoke;
+	box-sizing: border-box;
+	background: url("../images/victoria-priessnitz-LUkGChWDMS8-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	font-family: Josefinlight;
+	font-size:17pt;
+	padding:  16% 50% 0% 11%;
+	
+	
+}
+.home a
+{
+	text-decoration: none;
+}
+
+.about
+{
+	width: 100%;
+	height: 700px;
+	background-color: aquamarine;
+	float: left;
+}
+
+.about01
+{
+	width: 50%;
+	height: 100%;
+	background-color:whitesmoke;
+	float: left; 
+	box-sizing: border-box;
+	font-family: Josefinlight;
+	font-size: 15pt;
+	padding: 80px 0% 0px 11%;
+	
+}
+
+.about02
+{
+	width: 50%;
+	height: 100%;
+	background-color:whitesmoke;
+	float: right;
+	padding: 20% 11% 0px 3%;
+	box-sizing: border-box;
+	font-family: Josefinlight;
+	font-size: 12pt;
+}
+
+.about02 button
+
+{
+	width: 120px;
+	height: 40px;
+	font-family: Josefin;
+	font-size: 12pt;
+	border: 1px solid #E06028;
+	border-radius: 100px;
+	background-color:#E06028;
+	padding-top:2px;
+	
+}
+.about02 button:hover
+{
+	background-color: #C44F1C;
+}
+
+.about02 a
+{
+	text-decoration: none;
+}
+
+.idgallery
+{
+	width: 100%;
+	height: 30px;
+}
+.gallery1
+{
+	width: 100%;
+	height:510px;
+	background-color:cyan;
+	float: left;
+	
+}
+.linemenu
+{
+	width: 100%;
+	height:60px;
+	float: left;
+	background-color:#E06028;
+	padding: 1.5% 0% 0% 45%; 
+	box-sizing: border-box;
+	font-family: Josefin;
+	font-size: 20pt;
+}
+.gallery
+{
+	width: 100%;
+	height:450px;
+	float: left;
+	background-color:aquamarine;
+}
+
+.hinhgallery
+{
+	width: 25%;
+	height:100%;
+	float: left;
+	background-color:#E06028;
+	box-sizing: border-box;
+}
+
+.contact
+{
+	width: 100%;
+	height:600px;
+	float: left;
+	background-color:whitesmoke;
+	
+}
+
+
+.contact input
+{
+	width: 500px;
+	border:none;
+	border-bottom: 0.5px solid #949494;
+	background-color: whitesmoke;
+	font-family: Josefinlight;
+	font-size: 12pt;
+	line-height:3;
+	
+}
+.contact select
+{
+	width: 500px;
+	height: 40px;
+	border: none;
+	color:#868686;
+	border-bottom: 0.5px solid #949494 ;
+	background-color: whitesmoke;
+	font-family: Josefinlight;
+	font-size: 15pt;
+	line-height:3;
+	margin-top:6px;
+	
+}
+.contact td
+{
+	vertical-align: top;
+}
+
+.contact textarea
+{
+	width: 500px;
+	border:none;
+	border-bottom: 0.5px solid #949494;
+	background-color: whitesmoke;
+	font-family: Josefinlight;
+	font-size: 15pt;
+	line-height:3;
+}
+.contact input[type=submit] 
+{
+  	width: 100%;
+	height: 40px;
+  	background-color:#E06028;
+  	color: white;
+  	border: none;
+  	border-radius: 100px;
+ 	cursor: pointer;
+	font-family: Josefin;
+	font-size: 10pt;
+	padding-top: 0.7px;
+	margin-top: 20px;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #C44F1C;
+}
+
+
+
+.footer-distributed
+{
+ background-color:#E06028;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  padding: 55px 50px;
+font-family: Josefinlight;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+  display: inline-block;
+  vertical-align: top;
+	padding-top:30px;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+  width: 40%;
+}
+
+/* The company logo */
+
+.footer-distributed h3{
+  color:  #ffffff;
+  font-family: Josefin;
+font-size: 20px;
+  margin: 0;
+}
+
+.footer-distributed h3 span{
+  color:  white;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+  color:  #ffffff;
+  margin: 20px 0 12px;
+  padding: 0;
+}
+
+.footer-distributed .footer-links a{
+  display:inline-block;
+  line-height: 1.8;
+  font-weight:400;
+  text-decoration: none;
+  color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+  color:  white;
+  font-size: 15px;
+  font-weight: normal;
+  margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+  width: 35%;
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+
+.footer-distributed .footer-center i{
+  background-color:  #33383b;
+  color: #ffffff;
+  font-size: 20px;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 42px;
+  vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+  font-size: 18px;
+  line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+  display: inline-block;
+  color: #ffffff;
+  font-weight:400;
+  vertical-align: middle;
+  margin:0;
+}
+
+.footer-distributed .footer-center p span{
+  display:block;
+  font-weight: normal;
+  font-size:18px;
+  line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+  color:  white;
+  text-decoration: none;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "|";
+  font-weight:300;
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+/* Footer Right */
+.footer-right input[type=text]
+{
+	width: 230px;
+	height: 30px;
+	background:none;
+	border: solid 1px white;
+	color: white;
+	font-family: Josefin;
+}
+
+.footer-right input[type=submit]
+{
+	width: 235px;
+	height: 35px;
+	background:white;
+	border: solid 1px white;
+	border-radius: 5px;
+	color:rgba(224,96,40,1.00);
+	font-family: Josefin;
+	font-size: 12pt;
+	vertical-align:middle;
+}
+
+.footer-distributed .footer-right{
+  width: 20%;
+}
+
+.footer-distributed .footer-company-about{
+  line-height: 20px;
+  color:white;
+  font-size: 15px;
+  margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+  display: block;
+  color:  #ffffff;
+  font-size: 20px;
+  font-family:Josefin;
+  margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+  margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  background-color:  #33383b;
+  border-radius: 2px;
+
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+
+  margin-right: 3px;
+  margin-bottom: 5px;
+}
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+  .footer-distributed{
+    font: bold 14px sans-serif;
+  }
+
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-center,
+  .footer-distributed .footer-right{
+    display: block;
+    width: 100%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
+
+  .footer-distributed .footer-center i 
+	{
+    margin-left: 0px;
+	}
